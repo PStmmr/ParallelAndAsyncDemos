@@ -1,0 +1,10 @@
+﻿<Window x:Class="AsyncWpfApp.Demo01SynchronFreeze"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Demo01SynchronFreeze" Height="300" Width="300">
+    <Grid>
+        <Button Content="Don't do this!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="155" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,67,0,0" TextWrapping="Wrap" Name ="statusTextBlock" Text="TextBlock" VerticalAlignment="Top" Width="272" Height="64"/>
+
+    </Grid>
+</Window>

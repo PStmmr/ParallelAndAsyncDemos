@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parallel", "Parallel", "{C2A71639-8A2F-4694-BF36-89B90B8DA3A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Async", "Async", "{5AEF9213-CD41-4370-8579-79742BD3EDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncConsoleApp", "AsyncDemos\AsyncConsoleApp\AsyncConsoleApp.csproj", "{433B9B28-64AA-4CF2-9556-93B117C10B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncWpfApp", "AsyncDemos\AsyncWpfApp\AsyncWpfApp.csproj", "{4848E789-8CFE-44B7-A9A0-D295FF1CCBA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemoLib", "AsyncDemos\AsyncDemoLib\AsyncDemoLib.csproj", "{A4D0D02D-D5DB-4073-A73C-6B6AA4021DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlowDemoLib", "ParallelDemos\DataFlowDemoLib\DataFlowDemoLib.csproj", "{CA4A3164-C955-4B5E-8283-B94459FA68AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelConsoleApp", "ParallelDemos\ParallelConsoleApp\ParallelConsoleApp.csproj", "{427E7979-0983-4888-BE51-9C85372430B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433B9B28-64AA-4CF2-9556-93B117C10B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433B9B28-64AA-4CF2-9556-93B117C10B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433B9B28-64AA-4CF2-9556-93B117C10B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433B9B28-64AA-4CF2-9556-93B117C10B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4848E789-8CFE-44B7-A9A0-D295FF1CCBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4848E789-8CFE-44B7-A9A0-D295FF1CCBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4848E789-8CFE-44B7-A9A0-D295FF1CCBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4848E789-8CFE-44B7-A9A0-D295FF1CCBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D0D02D-D5DB-4073-A73C-6B6AA4021DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D0D02D-D5DB-4073-A73C-6B6AA4021DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D0D02D-D5DB-4073-A73C-6B6AA4021DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D0D02D-D5DB-4073-A73C-6B6AA4021DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4A3164-C955-4B5E-8283-B94459FA68AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4A3164-C955-4B5E-8283-B94459FA68AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4A3164-C955-4B5E-8283-B94459FA68AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4A3164-C955-4B5E-8283-B94459FA68AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427E7979-0983-4888-BE51-9C85372430B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427E7979-0983-4888-BE51-9C85372430B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427E7979-0983-4888-BE51-9C85372430B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427E7979-0983-4888-BE51-9C85372430B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA4A3164-C955-4B5E-8283-B94459FA68AD} = {C2A71639-8A2F-4694-BF36-89B90B8DA3A1}
+		{427E7979-0983-4888-BE51-9C85372430B2} = {C2A71639-8A2F-4694-BF36-89B90B8DA3A1}
+		{433B9B28-64AA-4CF2-9556-93B117C10B41} = {5AEF9213-CD41-4370-8579-79742BD3EDB2}
+		{4848E789-8CFE-44B7-A9A0-D295FF1CCBA5} = {5AEF9213-CD41-4370-8579-79742BD3EDB2}
+		{A4D0D02D-D5DB-4073-A73C-6B6AA4021DDC} = {5AEF9213-CD41-4370-8579-79742BD3EDB2}
+	EndGlobalSection
+EndGlobal
