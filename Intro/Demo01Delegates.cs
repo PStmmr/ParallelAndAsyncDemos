@@ -9,7 +9,6 @@ namespace Intro
         static void Main(string[] args)
         {
             DelegatesSample();
-            Console.ReadLine();
         }
 
         public static void DelegatesSample()
