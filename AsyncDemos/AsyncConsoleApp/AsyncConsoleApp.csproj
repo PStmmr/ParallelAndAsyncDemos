@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsyncConsoleApp.Demo02Threads</StartupObject>
+    <StartupObject>AsyncConsoleApp.Demo08CreateCancellableAsyncMethodWithTap</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

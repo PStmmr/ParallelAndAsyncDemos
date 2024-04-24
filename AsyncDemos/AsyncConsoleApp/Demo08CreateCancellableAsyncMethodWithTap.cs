@@ -17,10 +17,10 @@ namespace AsyncConsoleApp
             SimpleDownloader downloader = new SimpleDownloader();
             List<string> pageAddresses = new List<string>()
                                              {
-                                                 @"http://www.orf.at/",
-                                                 @"http://www.tgw-group.com/",
-                                                 @"http://www.microsoft.com/",
-                                                  @"http://www.apple.com/"
+                                                 @"https://www.orf.at/",
+                                                 @"https://www.avanade.com/en-us",
+                                                 @"https://www.microsoft.com/",
+                                                  @"https://www.apple.com/"
                                              };
             Console.WriteLine("Start downloading {0} pages ...", pageAddresses.Count);
 
@@ -66,7 +66,7 @@ namespace AsyncConsoleApp
         public string DownloadString(string address)
         {
             WebClient client = new WebClient();
-            //TGW proxy requires authentication ...
+            //if proxy requires authentication ...
             IWebProxy theProxy = client.Proxy;
             if (theProxy != null)
             {

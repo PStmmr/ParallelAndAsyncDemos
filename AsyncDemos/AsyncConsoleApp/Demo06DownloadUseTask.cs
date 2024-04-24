@@ -14,9 +14,9 @@ namespace AsyncConsoleApp
             Console.WriteLine("Downloading from {0} asynchronously using TAP", downloadUri);
 
             //synchronous code:
-            //byte[] result = new WebClient().DownloadData(tgwUri);
+            //byte[] result = new WebClient().DownloadData(downloadUri);
             //Console.WriteLine("Downloaded {0} bytes. (SYNC)", result.Length);
-            
+
             Task<byte[]> downloadTask = new WebClient().DownloadDataTaskAsync(downloadUri);
             downloadTask.ContinueWith(task =>
                  Console.WriteLine("Downloaded {0} bytes. (ASYNC)", task.Result.Length)

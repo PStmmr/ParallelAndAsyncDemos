@@ -52,10 +52,10 @@ namespace ParallelConsoleApp
         {
             Console.WriteLine("MyParallel FOR loop.");
 
-            MyParallelFor(1, 1000,
+            MyParallelFor(1, 5000,
                 i =>
                 {
-                    Console.WriteLine("Step {0}", i);
+                    Console.WriteLine("Step {0} - ThreadId {1}", i, Thread.CurrentThread.ManagedThreadId);
                     Thread.Sleep(20);
                 });
 

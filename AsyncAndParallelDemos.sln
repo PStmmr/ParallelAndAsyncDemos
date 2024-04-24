@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncWpfApp", "AsyncDemos\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemoLib", "AsyncDemos\AsyncDemoLib\AsyncDemoLib.csproj", "{A4D0D02D-D5DB-4073-A73C-6B6AA4021DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlowDemoLib", "ParallelDemos\DataFlowDemoLib\DataFlowDemoLib.csproj", "{CA4A3164-C955-4B5E-8283-B94459FA68AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataFlowDemoLib", "ParallelDemos\DataFlowDemoLib\DataFlowDemoLib.csproj", "{CA4A3164-C955-4B5E-8283-B94459FA68AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelConsoleApp", "ParallelDemos\ParallelConsoleApp\ParallelConsoleApp.csproj", "{427E7979-0983-4888-BE51-9C85372430B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelConsoleApp", "ParallelDemos\ParallelConsoleApp\ParallelConsoleApp.csproj", "{427E7979-0983-4888-BE51-9C85372430B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Intro", "0_Intro", "{74A07AD7-7299-4DDA-BCD5-2A2A089674A6}"
 EndProject
