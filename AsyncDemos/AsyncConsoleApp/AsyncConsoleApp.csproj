@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsyncConsoleApp.Demo02ManyThreads</StartupObject>
+    <StartupObject>AsyncConsoleApp.Demo02ManyThreadsLoop</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Demo01Synchron.cs" />
-    <Compile Include="Demo02ManyThreads.cs" />
+    <Compile Include="Demo02ManyThreadsLoop.cs" />
     <Compile Include="Demo03IAsyncResultPattern.cs" />
     <Compile Include="Demo04UseEAP.cs" />
     <Compile Include="Demo05DevelopAsyncMethodWithEAP.cs" />
