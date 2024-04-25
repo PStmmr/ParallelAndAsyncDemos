@@ -11,10 +11,10 @@ namespace AsyncConsoleApp
         {
             List<Uri> urlList = new List<Uri>
                                     {
-                                        new Uri(@"http://www.tgw-group.com"),
-                                        new Uri(@"http://www.ssw.jku.at"),
-                                        new Uri(@"http://www.microsoft.com"),
-                                        new Uri(@"http://www.orf.at")
+                                        new Uri(@"https://www.avanade.com/en-us"),
+                                        new Uri(@"https://www.ssw.jku.at"),
+                                        new Uri(@"https://www.microsoft.com"),
+                                        new Uri(@"https://www.orf.at")
                                     };
             DownloadPageSizes(urlList);
             Console.ReadLine();

@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace AsyncConsoleApp
 {
-    class Demo02Threads
+    class Demo02ManyThreads
     {
         // Synchronous BLOCKING method
         static void WaitForTwoSeconds()
