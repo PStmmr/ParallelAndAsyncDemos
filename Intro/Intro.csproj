@@ -5,7 +5,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Intro.Demo01Delegates</StartupObject>
+    <StartupObject>Intro.Demo04ClosureWithAnonymousMethod</StartupObject>
     <AssemblyTitle>Intro</AssemblyTitle>
     <Product>Intro</Product>
     <Copyright>Copyright ©  2012</Copyright>
