@@ -8,7 +8,7 @@
     <StartupObject>ParallelConsoleApp.Demo01MyParallelForLoop</StartupObject>
     <AssemblyTitle>ParallelConsoleApp</AssemblyTitle>
     <Product>ParallelConsoleApp</Product>
-    <Copyright>Copyright ©  2012</Copyright>
+    <Copyright>Copyright Dietrich Birngruber ©  2024 </Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>

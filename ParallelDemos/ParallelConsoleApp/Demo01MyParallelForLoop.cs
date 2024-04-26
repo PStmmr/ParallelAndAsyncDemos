@@ -50,12 +50,12 @@ namespace ParallelConsoleApp
 
         static void Main()
         {
-            Console.WriteLine("MyParallel FOR loop.");
+            Console.WriteLine($"My parallel loop idea :-) - {nameof(Demo01MyParallelForLoop)}");
 
             MyParallelFor(1, 5000,
                 i =>
                 {
-                    Console.WriteLine("Step {0} - ThreadId {1}", i, Thread.CurrentThread.ManagedThreadId);
+                    Console.WriteLine("Step {0} - ThreadId: {1}", i, Thread.CurrentThread.ManagedThreadId);
                     Thread.Sleep(20);
                 });
 

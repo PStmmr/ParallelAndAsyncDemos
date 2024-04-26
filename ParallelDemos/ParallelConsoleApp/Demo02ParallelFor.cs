@@ -11,7 +11,7 @@ namespace ParallelConsoleApp
     {
         static void Main()
         {
-            Console.WriteLine("Parallel.For loop.");
+            Console.WriteLine($"Parallel.For loop. {nameof(Demo02ParallelFor)}");
 
             ParallelLoopResult loopResult = Parallel.For(1, 10000,
                                             i => // loop body - might be executed in parallel
@@ -26,6 +26,7 @@ namespace ParallelConsoleApp
             Console.WriteLine("Hit Enter.");
             Console.ReadLine();
 
+            Console.WriteLine("Parallel.For and exceptions demo");
             ForLoopThrowsException();
             Console.ReadLine();
         }
