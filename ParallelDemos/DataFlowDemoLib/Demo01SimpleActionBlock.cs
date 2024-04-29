@@ -14,8 +14,8 @@ namespace DataFlowDemoLib
         {
             Console.WriteLine("Start");
             //one synchronous action delegate is used to process the incomming / posted datum (aka message)
-            ActionBlock<string> block = new ActionBlock<string>(
-                aString => Console.WriteLine("Sample1 Processing {0}", aString));
+            ActionBlock<string> block = new (
+                aString => Console.WriteLine("Sample1 Processing {0}", aString) );
 
             for (int i = 0; i < 20; i++)
             {
@@ -61,9 +61,9 @@ namespace DataFlowDemoLib
                 
             }
 
-            Console.WriteLine("Start Thread id: {0}", Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("Start Thread id: {0}", Environment.CurrentManagedThreadId);
             ProcessStringAsync("Foo").ContinueWith(
-                completedTask => Console.WriteLine("Continue Thread id: {0}", Thread.CurrentThread.ManagedThreadId));
+                completedTask => Console.WriteLine("Continue Thread id: {0}", Environment.CurrentManagedThreadId));
 
 
         }
@@ -74,7 +74,7 @@ namespace DataFlowDemoLib
                                   {
                                       Console.WriteLine("{0} @ {1}", 
                                           s, 
-                                          Thread.CurrentThread.ManagedThreadId);
+                                          Environment.CurrentManagedThreadId);
                                       Thread.Sleep(60);
                                   });
             return t;

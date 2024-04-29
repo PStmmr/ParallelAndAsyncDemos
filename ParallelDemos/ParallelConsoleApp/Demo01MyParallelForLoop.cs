@@ -55,7 +55,7 @@ namespace ParallelConsoleApp
             MyParallelFor(1, 5000,
                 i =>
                 {
-                    Console.WriteLine("Step {0} - ThreadId: {1}", i, Thread.CurrentThread.ManagedThreadId);
+                    Console.WriteLine("Step {0} - ThreadId: {1}", i, Environment.CurrentManagedThreadId);
                     Thread.Sleep(20);
                 });
 

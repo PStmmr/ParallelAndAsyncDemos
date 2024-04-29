@@ -15,6 +15,7 @@ namespace AsyncConsoleApp
             DownloadAndPrintAsync(tgwUri).Wait();
 
             Console.WriteLine("Hit enter to shutdown.");
+            //ExceptionSampleAsync();
             Console.ReadLine();
         }
 
@@ -51,6 +52,7 @@ namespace AsyncConsoleApp
             catch (Exception ex)
             {
                 html = "Error! " + ex;
+                throw;
             }
             Console.WriteLine(html);
         }

@@ -5,7 +5,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ParallelConsoleApp.Demo01MyParallelForLoop</StartupObject>
+    <StartupObject>ParallelConsoleApp.Demo05ProducerConsumerV1</StartupObject>
     <AssemblyTitle>ParallelConsoleApp</AssemblyTitle>
     <Product>ParallelConsoleApp</Product>
     <Copyright>Copyright Dietrich Birngruber ©  2024 </Copyright>

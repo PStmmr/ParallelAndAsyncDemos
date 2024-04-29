@@ -27,6 +27,7 @@ namespace DataFlowDemoLib
         private void Producer()
         {
             while (isRunning)
+
             {
                 int item = GenerateItem();
                 bufferBlock.Post(item);

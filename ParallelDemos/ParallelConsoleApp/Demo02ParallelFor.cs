@@ -43,7 +43,7 @@ namespace ParallelConsoleApp
             }
             catch (AggregateException ae)
             {
-                Console.WriteLine("InnerExceptions Count: {0}", ae.InnerExceptions.Count());
+                Console.WriteLine("InnerExceptions Count: {0}", ae.InnerExceptions.Count);
                 ae.Handle((ex) =>
                 {
                     if (ex is ApplicationException)
