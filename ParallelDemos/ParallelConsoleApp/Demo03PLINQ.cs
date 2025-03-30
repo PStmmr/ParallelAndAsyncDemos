@@ -15,6 +15,11 @@ namespace ParallelConsoleApp
         {
             IEnumerable<int> source = Enumerable.Range(10, 1000);
 
+            var noPQuery = from num in source
+                           where Compute(num) > 0
+                           select num;
+            noPQuery.ToList(); // Force query execution - not parallel.
+
             // Opt-in to PLINQ with AsParallel() 
             ParallelQuery<int> evenNumsQuery = from num in source.AsParallel()
                            where Compute(num) > 0

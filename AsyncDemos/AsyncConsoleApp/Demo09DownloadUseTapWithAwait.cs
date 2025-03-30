@@ -8,11 +8,11 @@ namespace AsyncConsoleApp
     {
         static void Main()
         {
-            Uri tgwUri = new Uri(@"http://www.tgw-group.com");
-            Console.WriteLine("Downloading from {0} asynchronously using TAP with await", tgwUri);
+            Uri myUri = new Uri(@"http://www.avanade.com");
+            Console.WriteLine("Downloading from {0} asynchronously using TAP with await", myUri);
 
 
-            DownloadAndPrintAsync(tgwUri).Wait();
+            DownloadAndPrintAsync(myUri).Wait();
 
             Console.WriteLine("Hit enter to shutdown.");
             //ExceptionSampleAsync();
@@ -55,11 +55,6 @@ namespace AsyncConsoleApp
                 throw;
             }
             Console.WriteLine(html);
-        }
-
-        static void DownloadBadImplAsync(Uri uri)
-        {
-            Task t = DownloadAndPrintAsync(uri);
         }
 
         

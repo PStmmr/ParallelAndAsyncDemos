@@ -12,7 +12,7 @@ namespace AsyncConsoleApp
         {
             List<Uri> urlList = new List<Uri>
                                     {
-                                        new Uri(@"http://www.tgw-group.com"),
+                                        new Uri(@"https://www.avanade.com/en-us"),
                                         new Uri(@"http://www.ssw.jku.at"),
                                         new Uri(@"http://www.microsoft.com"),
                                         new Uri(@"http://www.orf.at")

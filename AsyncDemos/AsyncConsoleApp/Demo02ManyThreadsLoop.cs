@@ -8,7 +8,7 @@ namespace AsyncConsoleApp
         // Synchronous BLOCKING method
         static void WaitForTwoSeconds()
         {
-            Thread.Sleep(2000);
+            Thread.Sleep(2000); //BLOCKS the executing thread for 2 seconds -> don't use in real world :-)
             Console.WriteLine("Thread {0} done.", Thread.CurrentThread.ManagedThreadId);
         }
 

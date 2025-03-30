@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsyncConsoleApp.Demo09DownloadUseTapWithAwait</StartupObject>
+    <StartupObject>AsyncConsoleApp.Demo07ForLoopWithTasks</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

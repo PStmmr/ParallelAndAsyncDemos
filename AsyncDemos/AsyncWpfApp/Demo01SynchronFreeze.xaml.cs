@@ -29,7 +29,7 @@ namespace AsyncWpfApp
         {
             WebClient client = new WebClient();
             statusTextBlock.Text = "Start download";
-            byte[] data = client.DownloadData(@"http://www.tgw-group.com/");
+            byte[] data = client.DownloadData(@"http://www.microsoft.com/");
             statusTextBlock.Text = "Done "  + data.Length;
         }
     }

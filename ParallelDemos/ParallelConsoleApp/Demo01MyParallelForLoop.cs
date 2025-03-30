@@ -13,7 +13,9 @@ namespace ParallelConsoleApp
         /// <param name="inclusiveLowerBound"></param>
         /// <param name="exclusiveUpperBound"></param>
         /// <param name="body">one iteration step - the loop body</param>
-        public static void MyParallelFor(int inclusiveLowerBound, int exclusiveUpperBound, Action<int> body)
+        public static void MyParallelFor(int inclusiveLowerBound, 
+            int exclusiveUpperBound, 
+            Action<int> body)
         {
             // Determine the number of iterations to be processed, the number of
             // cores to use, and the approximate number of iterations to process
@@ -56,7 +58,7 @@ namespace ParallelConsoleApp
                 i =>
                 {
                     Console.WriteLine("Step {0} - ThreadId: {1}", i, Environment.CurrentManagedThreadId);
-                    Thread.Sleep(20);
+                    Thread.Sleep(20); //mimic CPU-bound work
                 });
 
             Console.ReadLine();

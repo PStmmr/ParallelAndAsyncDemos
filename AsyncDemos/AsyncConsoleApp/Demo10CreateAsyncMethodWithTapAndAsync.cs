@@ -8,7 +8,7 @@ namespace AsyncConsoleApp
     {
         static void Main()
         {
-            Uri uri = new Uri(@"http://www.tgw-group.com");
+            Uri uri = new Uri(@"http://www.microsoft.com");
             StartDemo1Async(uri).Wait();
             Console.WriteLine("hit enter ...");
             Console.ReadLine();
